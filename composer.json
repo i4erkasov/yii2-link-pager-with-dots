@@ -1,0 +1,22 @@
+{
+    "name": "i4erkasov/yii2-link-pager-with-dots",
+    "description": "Supplements the standard generation of pagination buttons",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","pager"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Cherkasov",
+            "email": "i.4erkasov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "i4erkasov\\LinkPagerWithDots\\": ""
+        }
+    }
+}
