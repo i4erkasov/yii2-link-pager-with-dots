@@ -37,7 +37,8 @@ Once the extension is installed, simply use it in your code by  :
 Пример использования с шаблонизатором yii2-twig:
 
 ```php
-{{ \i4erkasov\LinkPagerWithDots\widgets\linkPagerWithDots_widget({
+{{ use('i4erkasov/LinkPagerWithDots/widget/linkPagerWithDots') }}
+{{ linkPagerWithDots_widget({
                     'pagination': dataProvider.pagination,
                     'activePageCssClass': 'active',
                     'disableCurrentPageButton': true,
