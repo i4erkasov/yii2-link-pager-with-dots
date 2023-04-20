@@ -1,40 +1,39 @@
-LinkPager extension to display pagination buttons
+Yii2 Link Pager with Dots
 =================================================
 
-Расширение LinkPager для отображения кнопок пагинации.
+This is an extension of the default Yii2 LinkPager widget, which adds dots between page links.
 
-Дополняет стандартную генерацию кнопок, вида "1 << 3 4 5 6 7 8 >> 10", кнопками с тремя точками
-для генерации навигации, вида: "<< 1 ... 3 4 5 6 ... 10 >>"
+
+Complements the standard button generation, e.g. "1 << 3 4 5 6 7 8 >> 10", with three-dot buttons  
+to create navigation, e.g.: "<< 1 ... 3 4 5 6 ... 10 >> "
 
 Installation
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
+Run the following command:
 
 ```
 php composer.phar require --prefer-dist i4erkasov/yii2-link-pager-with-dots "*"
 ```
 
-or add
+or add the following to the require section of your composer.json file:
 
 ```
 "i4erkasov/yii2-link-pager-with-dots": "*"
 ```
-
-to the require section of your `composer.json` file.
 
 Usage
 -----
 
 Once the extension is installed, simply use it in your code by  :
 
-Набор параметров виджета как у стандартного LinkPager
+The set of parameters is the same as for standard [LinkPager](https://www.yiiframework.com/doc/api/2.0/yii-widgets-linkpager)
 
-Добавлен дополнительный параметр dotsClass отвечающий за ```css``` класс для точек ```...```
+Added an additional parameter dotsClass responsible for ```css``` класс для точек ```...```
 
-Пример использования с шаблонизатором yii2-twig:
+yii2-twig example:
 
 ```php
 {{ use('i4erkasov/LinkPagerWithDots/widget/linkPagerWithDots') }}
@@ -59,3 +58,8 @@ Once the extension is installed, simply use it in your code by  :
                     }
                 }) | raw }}
 ```
+## License
+This package is released under the MIT License. See LICENSE.md for details.
+
+## Contributing
+You can contribute by submitting pull requests or creating new issues.
