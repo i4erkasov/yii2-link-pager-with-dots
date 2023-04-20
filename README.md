@@ -1,6 +1,10 @@
 Yii2 Link Pager with Dots
 =================================================
 
+[![Latest Stable Version](https://poser.pugx.org/i4erkasov/yii2-link-pager-with-dots/v/stable)](https://packagist.org/packages/i4erkasov/yii2-link-pager-with-dots)
+[![Total Downloads](https://poser.pugx.org/i4erkasov/yii2-link-pager-with-dots/downloads)](https://packagist.org/packages/i4erkasov/yii2-link-pager-with-dots)
+[![License](https://poser.pugx.org/i4erkasov/yii2-link-pager-with-dots/license)](https://packagist.org/packages/i4erkasov/yii2-link-pager-with-dots)
+
 This is an extension of the default Yii2 LinkPager widget, which adds dots between page links.
 
 
