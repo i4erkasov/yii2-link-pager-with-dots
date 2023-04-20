@@ -38,25 +38,25 @@ yii2-twig example:
 ```php
 {{ use('i4erkasov/LinkPagerWithDots/widget/linkPagerWithDots') }}
 {{ linkPagerWithDots_widget({
-                    'pagination': dataProvider.pagination,
-                    'activePageCssClass': 'active',
-                    'disableCurrentPageButton': true,
-                    'prevPageCssClass': 'arrow--prev',
-                    'nextPageCssClass': 'arrow--next',
-                    'dotsClass': 'page--dots',
-                    'options':{
-                        'class': 'paging--list'
-                    },
-                    'linkContainerOptions':{
-                        'class': 'paging--page'
-                    },
-                    'linkOptions': {
-                        'class': 'paging--link'
-                    },
-                    'linkPrevNext': {
-                        'class': 'paging--arrow'
-                    }
-                }) | raw }}
+    'pagination': dataProvider.pagination,
+    'activePageCssClass': 'active',
+    'disableCurrentPageButton': true,
+    'prevPageCssClass': 'arrow--prev',
+    'nextPageCssClass': 'arrow--next',
+    'dotsClass': 'page--dots',
+    'options':{
+        'class': 'paging--list'
+    },
+    'linkContainerOptions':{
+        'class': 'paging--page'
+    },
+    'linkOptions': {
+        'class': 'paging--link'
+    },
+    'linkPrevNext': {
+        'class': 'paging--arrow'
+    }
+}) | raw }}
 ```
 ## License
 This package is released under the MIT License. See LICENSE.md for details.
